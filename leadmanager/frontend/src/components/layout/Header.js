@@ -22,7 +22,7 @@ export class Header extends Component {
                     </strong>
                 </span>
                 <li className="nav-item">
-                    <button className="nav-link btn btn-info btn-sm text-light" onClick={ this.props.logout }>Logout</button>
+                    <button className="nav-link btn btn-link btn-sm text-light" onClick={ this.props.logout }>Logout</button>
                 </li>
             </ul>
         )
@@ -39,7 +39,7 @@ export class Header extends Component {
         )
 
         return (
-            <nav className="navbar navbar-expand-sm navbar-light bg-light">
+            <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
                 <div className="conatiner">
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
