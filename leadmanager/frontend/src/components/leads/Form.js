@@ -65,7 +65,7 @@ export class Form extends Component {
                 />
               </div>
               <div className="form-group">
-                <button type="submit" className="btn btn-warning">
+                <button type="submit" className="btn btn-outline-warning">
                   Submit
                 </button>
               </div>
